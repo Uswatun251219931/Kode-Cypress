@@ -18,7 +18,7 @@ describe ('login/logout test', () => {
     });
 
     it('Should try login with valid data', () =>{
-        cy.get('[id=signin_button]').click()
+     
         cy.fixture("example").then (user => {
             const username= user.username
             cy.get('[id=user_login]').clear()
