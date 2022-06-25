@@ -55,7 +55,7 @@ describe('Automation Test Login ', () => {
       
     });
 
-    it('SL-3 Login Failed, username & password wrong', () => {
+    it('SL-4 Login Failed, username & password wrong', () => {
         
         cy.fixture("example").then (user => {
            
